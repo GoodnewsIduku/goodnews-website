@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Scissors Paper Game</title>
+    <link rel="stylesheet" href="cssFolder/rock-paper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <p class="title">Rock Paper Scissors Game</p>
+    <button id="rock">
+      <img src="images-rock-paper-scissors/rock-emoji.png" class="move"></button>
+
+    <button id="paper">
+      <img src="images-rock-paper-scissors/paper-emoji.png" class="move"></button>
+
+    <button id="scissors">
+      <img src="images-rock-paper-scissors/scissors-emoji.png" class="move"></button>
+
+    <div><p class="js-yourMove">Your move displays here!</p>
+      <p class="js-computerMove">Computer move displays here!</p>
+    </div>
+
+    <p class="js-result1">Wins: <button class="js-score1">0</button></p>
+
+    <p class="js-result2">Ties: <button class="js-score2">0</button></p>
+
+    <p class="js-result3">Losses: <button class="js-score3">0</button></p>
+
+    <button id="reset"
+     >Reset</button>
+
+     <button class="autoPlay">Auto Play</button>
+
+    <p>
+      <u class="Underlined">Click here</u> to get the final scores.
+
+      <button class="js-finalScore css-finalScore">Final scores displays here!</button>
+    </p>
+
+    <p>
+      <input placeholder="Enter your name" id="js-player-name">
+
+    <button class="js-name-button css-enterButton">Enter</button>
+    </p>
+
+    <p class="js-name-result"></p>
+
+
+    <script src="javascriptFolder/rock-paper.js"></script>
+
+  </body>
+
+    
+
+</html>

@@ -1,1 +1,93 @@
+body{
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
 
+.title{
+  font-size: 25px;
+}
+
+.move{
+  height: 50px;
+}
+
+#rock,
+#paper,
+#scissors{
+  cursor: pointer;
+  background-color: transparent;
+  border: 1.5px solid white;
+  border-radius: 60px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+#reset,
+.autoPlay{
+  cursor: pointer;
+  border: none;
+  width: 70px;
+  margin-top: 20px;
+}
+
+.move-icon{
+  height: 25px;
+}
+
+.Underlined:hover{
+  cursor: pointer;
+}
+
+.js-yourMove{
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.js-computerMove{
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.js-result1,
+.js-result2,
+.js-result3{
+  display: flex;
+}
+
+.js-score1{
+  margin-left: 25px;
+}
+.js-score2{
+  margin-left: 30px;
+}
+.js-score3{
+  margin-left: 9px;
+}
+
+.js-finalScore{
+  width: 200px;
+  height: 25px;
+  margin-left: 40px;
+}
+
+.css-finalScore{
+  border: none;
+}
+
+#js-player-name{
+  border: none;
+  height: 20px;
+  width: 200px;
+}
+
+.css-enterButton{
+  border: none;
+  cursor: pointer;
+  height: 22px;
+}
